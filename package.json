@@ -1,0 +1,20 @@
+{
+  "name": "scriptsdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "keywords": [],
+  "author": "David Triana",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mongodb": "6.18.0",
+    "pg": "8.16.3"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}

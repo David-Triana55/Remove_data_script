@@ -1,0 +1,25 @@
+{
+  "tables": [
+    {
+      "name": "\"Attachments\""
+    },
+    {
+      "name": "\"AssignmentRequest\""
+    },
+    {
+      "name": "\"Users\""
+    },
+    {
+      "name": "\"Companies\""
+    },
+    {
+      "name": "\"AccountActivationAttemps\""
+    },
+    {
+      "name": "\"EmailDomains\""
+    },
+    {
+      "name": "\"ResetPasswordAttempts\""
+    }
+  ]
+}

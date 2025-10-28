@@ -1,0 +1,309 @@
+{
+  "dbs": [
+    {
+      "name": "CertificatesDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "CertificateModel"
+        }
+      ]
+    },
+    {
+      "name": "CertificatesQueries",
+      "collections": [
+        {
+          "name": "CertificateModel"
+        }
+      ]
+    },
+    {
+      "name": "CompaniesDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "AdvertisementModel"
+        },
+        {
+          "name": "CompanyModel"
+        }
+      ]
+    },
+    {
+      "name": "CompaniesQueries",
+      "collections": [
+        {
+          "name": "AdvertisementModel"
+        },
+        {
+          "name": "CompanyModel"
+        }
+      ]
+    },
+    {
+      "name": "EvaluationsDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "EvaluationModel"
+        }
+      ]
+    },
+    {
+      "name": "EvaluationsQueries",
+      "collections": [
+        {
+          "name": "EvaluationModel"
+        }
+      ]
+    },
+    {
+      "name": "LearningRoutesDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "CategoryModel"
+        },
+        {
+          "name": "CertificateModel"
+        },
+        {
+          "name": "CoursesModel"
+        },
+        {
+          "name": "LearningRouteModel"
+        },
+        {
+          "name": "MotivationalMessageModel"
+        },
+        {
+          "name": "RouteProgressModel"
+        },
+        {
+          "name": "StudyGroupsModel"
+        },
+        {
+          "name": "UserModel"
+        }
+      ]
+    },
+    {
+      "name": "LearningRoutesQueries",
+      "collections": [
+        {
+          "name": "CategoryModel"
+        },
+        {
+          "name": "CertificateModel"
+        },
+        {
+          "name": "CoursesModel"
+        },
+        {
+          "name": "LearningRouteModel"
+        },
+        {
+          "name": "MotivationalMessageModel"
+        },
+        {
+          "name": "RouteProgressModel"
+        },
+        {
+          "name": "StudyGroupsModel"
+        },
+        {
+          "name": "UserModel"
+        }
+      ]
+    },
+    {
+      "name": "NotificationsDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "NotificationModel"
+        }
+      ]
+    },
+    {
+      "name": "StudyGroupsDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "CourseModel"
+        },
+        {
+          "name": "LearningRouteModel"
+        },
+        {
+          "name": "StudentModel"
+        },
+        {
+          "name": "StudyGroupModel"
+        }
+      ]
+    },
+    {
+      "name": "StudyGroupsQueries",
+      "collections": [
+        {
+          "name": "CourseModel"
+        },
+        {
+          "name": "LearningRouteModel"
+        },
+        {
+          "name": "StudentModel"
+        },
+        {
+          "name": "StudyGroupModel"
+        }
+      ]
+    },
+    {
+      "name": "UsersDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        }
+      ]
+    },
+    {
+      "name": "bibliographyDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "CategoryModel"
+        },
+        {
+          "name": "CompanyModel"
+        },
+        {
+          "name": "FileModel"
+        },
+        {
+          "name": "ResourceModel"
+        },
+        {
+          "name": "SubThemeModel"
+        },
+        {
+          "name": "ThemeModel"
+        },
+        {
+          "name": "UserModel"
+        }
+      ]
+    },
+    {
+      "name": "bibliographyQueries",
+      "collections": [
+        {
+          "name": "CategoryModel"
+        },
+        {
+          "name": "CompanyModel"
+        },
+        {
+          "name": "ResourceModel"
+        },
+        {
+          "name": "SubThemeModel"
+        },
+        {
+          "name": "ThemeModel"
+        },
+        {
+          "name": "UserModel"
+        }
+      ]
+    },
+    {
+      "name": "coursesDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        },
+        {
+          "name": "CategoryModel"
+        },
+        {
+          "name": "CompanyModel"
+        },
+        {
+          "name": "CourseModel"
+        },
+        {
+          "name": "EvaluationModel"
+        },
+        {
+          "name": "LearningRouteModel"
+        },
+        {
+          "name": "ResourceModel"
+        },
+        {
+          "name": "StudentProgressModel"
+        },
+        {
+          "name": "SubThemeModel"
+        },
+        {
+          "name": "ThemeModel"
+        },
+        {
+          "name": "UserModel"
+        }
+      ]
+    },
+    {
+      "name": "coursesQueries",
+      "collections": [
+        {
+          "name": "CategoryModel"
+        },
+        {
+          "name": "CompanyModel"
+        },
+        {
+          "name": "CourseModel"
+        },
+        {
+          "name": "EvaluationModel"
+        },
+        {
+          "name": "LearningRouteModel"
+        },
+        {
+          "name": "ResourceModel"
+        },
+        {
+          "name": "StudentProgressModel"
+        },
+        {
+          "name": "SubThemeModel"
+        },
+        {
+          "name": "ThemeModel"
+        },
+        {
+          "name": "UserModel"
+        }
+      ]
+    }
+  ]
+}

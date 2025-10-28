@@ -1,0 +1,8 @@
+{
+  "tables": [
+    {
+      "name": "\"Users\"",
+      "where": "\"Id\" <> 'd5f11311-5a2d-42a0-a462-b5d52d4ea90b'"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dbs": [
+    {
+      "name": "CoursesDomainCopy",
+      "collections": [
+        {
+          "name": "CategoryModel",
+          "where": {
+            "Name": "matematicas"
+          }
+        }
+      ]
+    }
+  ]
+}

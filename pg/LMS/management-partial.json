@@ -1,0 +1,17 @@
+{
+  "tables": [
+    {
+      "name": "\"TerritorialEntity\""
+    },
+    {
+      "name": "\"EducationalInstitution\""
+    },
+    {
+      "name": "\"Files\""
+    },
+    {
+      "name": "\"Users\"",
+      "where": "\"Role\" <> 0"
+    }
+  ]
+}

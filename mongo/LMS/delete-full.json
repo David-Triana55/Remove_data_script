@@ -1,0 +1,12 @@
+{
+  "dbs": [
+    {
+      "name": "AdminManagementDomain",
+      "collections": [
+        {
+          "name": "AggregateStore"
+        }
+      ]
+    }
+  ]
+}

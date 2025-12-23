@@ -8,7 +8,8 @@ const args = process.argv.slice(2)
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const { tables } = JSON.parse(
-  readFileSync(join(__dirname, 'tables.json'), 'utf8')
+  // change example.json to the file you want to use
+  readFileSync(join(__dirname, './delete-example.json.json'), 'utf8')
 )
 
 let connection = null

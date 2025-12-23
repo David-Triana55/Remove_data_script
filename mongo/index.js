@@ -7,7 +7,8 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const { dbs } = JSON.parse(
-  readFileSync(join(__dirname, './collections.json'), 'utf-8')
+  // change example.json to the file you want to use
+  readFileSync(join(__dirname, './delete-example.json'), 'utf-8')
 )
 
 const args = process.argv.slice(2)

@@ -2,13 +2,12 @@
 
 ## Archivos de configuración
 
-* **`mongo/collections.json`** y **`pg/tables.json`**: eliminan todos los datos de las bases de datos.
 * **`mongo/delete-example.json`** y **`pg/delete-example.json`** → ejemplos de eliminación condicional, que se pueden modificar según tus necesidades.
 
 **Nota:**
-Por seguridad, el archivo importado en `index.js` de cada tipo de base de datos es **`delete-example.json`**, ya que `collections.json` y `tables.json` borran todas las tablas/colecciones.
+Por seguridad, el archivo importado en `index.js` de cada tipo de base de datos es **`delete-example.json`**, ya que `delete-example.json` y `delete-example.json` borran todas las tablas/colecciones.
 
-Si quieres personalizar la limpieza, edita `delete-example.json` en la carpeta correspondiente y asegúrate de importarlo en `index.js`.
+Si quieres personalizar la limpieza, agrega un archivo `.json` en la carpeta correspondiente y asegúrate de importarlo en `index.js`.
 
 ## Ejemplos de configuración
 

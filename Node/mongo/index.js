@@ -8,7 +8,7 @@ const __dirname = dirname(__filename)
 
 const { dbs } = JSON.parse(
   // change example.json to the file you want to use
-  readFileSync(join(__dirname, './delete-example.json'), 'utf-8')
+  readFileSync(join(__dirname, './LMS/delete-full.json'), 'utf-8')
 )
 
 const args = process.argv.slice(2)

@@ -1,0 +1,17 @@
+{
+  "tables": [
+    {
+      "name": "\"Users\"",
+      "where": "\"Id\" <> 'ed0609d2-9e8e-4924-850f-7840d78f9366'"
+    },
+    {
+      "name": "\"EducationalInstitution\""
+    },
+    {
+      "name": "\"TerritorialEntity\""
+    },
+    {
+      "name": "\"Files\""
+    }
+  ]
+}

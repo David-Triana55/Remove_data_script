@@ -1,0 +1,17 @@
+
+BEGIN;
+
+TRUNCATE TABLE "SchoolYears" CASCADE;
+
+DELETE FROM "Users" WHERE "Role" <> 0;
+
+DELETE FROM "Files"
+WHERE "Id" NOT IN (
+  SELECT "Id"
+  FROM "Users"
+  WHERE "Id" IS NOT NULL
+);
+
+TRUNCATE TABLE "TerritorialEntity" CASCADE;
+
+COMMIT;

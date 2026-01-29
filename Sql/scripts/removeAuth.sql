@@ -1,0 +1,6 @@
+
+BEGIN;
+
+DELETE FROM "Users" WHERE "Role" <> 0;
+
+COMMIT;

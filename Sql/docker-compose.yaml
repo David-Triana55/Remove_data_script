@@ -1,0 +1,9 @@
+services:
+  clean-db:
+    image: postgres:16
+    env_file:
+      - .env
+    volumes:
+      - ./scripts:/scripts
+    command: >
+      sh -c " PGPASSWORD=$DB_PASSWORD psql -h $DB_HOST -U $DB_USER -d $DB_NAME -f /scripts/removeAdminManagement.sql "

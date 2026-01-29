@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const { tables } = JSON.parse(
   // change example.json to the file you want to use
-  readFileSync(join(__dirname, './delete-example.json'), 'utf8')
+  readFileSync(join(__dirname, './LMS/auth-partial.json'), 'utf8')
 )
 
 let connection = null

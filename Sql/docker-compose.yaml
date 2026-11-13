@@ -6,4 +6,4 @@ services:
     volumes:
       - ./scripts:/scripts
     command: >
-      sh -c " PGPASSWORD=$DB_PASSWORD psql -h $DB_HOST -U $DB_USER -d $DB_NAME -f /scripts/removeAdminManagement.sql "
+      sh -c " PGPASSWORD=$DB_PASSWORD psql -h $DB_HOST -U $DB_USER -d $DB_NAME -f /scripts/removeClasses.sql"

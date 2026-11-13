@@ -1,0 +1,33 @@
+BEGIN;
+
+TRUNCATE TABLE "PlanInstitutionals" CASCADE;
+TRUNCATE TABLE "PlanTraditionals" CASCADE;
+
+TRUNCATE TABLE "PlanStems" CASCADE;
+
+-- DELETE FROM "Users" WHERE "Role" <> 0 AND "Role" <> 13;
+-- DELETE FROM "Users" WHERE "Role" <> 0 AND "Role" <> 13;
+
+
+TRUNCATE TABLE "Competences" CASCADE;
+
+TRUNCATE TABLE "Files" CASCADE;
+
+
+TRUNCATE TABLE "Exams" CASCADE;
+
+TRUNCATE TABLE "PlanSubmissions" CASCADE;
+
+-- TRUNCATE TABLE "EducationalInstitutions" CASCADE;
+
+-- TRUNCATE TABLE "Folders" CASCADE;
+
+TRUNCATE TABLE "PlanAssemblies" CASCADE;
+
+TRUNCATE TABLE "Classes" CASCADE;
+TRUNCATE TABLE "Covers" CASCADE;
+TRUNCATE TABLE "Pages" CASCADE;
+TRUNCATE TABLE "PageContents" CASCADE;
+
+
+COMMIT;
